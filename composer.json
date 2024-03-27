@@ -1,0 +1,16 @@
+{
+    "name": "henriquebs0/agenda-tarefas",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "HenriqueBS0\\AgendaTarefas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HenriqueBS0",
+            "email": "henrique.10agr@gmail.com"
+        }
+    ],
+    "require": {}
+}

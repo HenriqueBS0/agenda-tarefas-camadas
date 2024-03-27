@@ -1,0 +1,21 @@
+<tr>
+    <th>{id}</th>
+    <th>{nome}</th>
+    <th>{descricao}</th>
+    <th>{data-hora}</th>
+    <th>{concluida}</th>
+    <td>
+        <form action="" method="get">
+            <input type="hidden" name="path" value="tarefas">
+            <input type="hidden" name="__method" value="DELETE">
+            <input type="hidden" name="categoria" value="{categoria}">
+            <button type="submit" name="id" value="{id}">Excluir</button>
+        </form>
+        <form action="" method="get">
+            <input type="hidden" name="path" value="tarefas">
+            <input type="hidden" name="__method" value="PUT">
+            <input type="hidden" name="categoria" value="{categoria}">
+            <button type="submit" name="id" value="{id}">Concluir</button>
+        </form>
+    </td>
+</tr>
